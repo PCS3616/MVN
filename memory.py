@@ -1,5 +1,5 @@
-import address
-from mvnutils import *
+from . import address
+from .mvnutils import *
 
 MIN_ADDR=0x0000
 MAX_ADDR=0x0FFF

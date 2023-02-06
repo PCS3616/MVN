@@ -1,4 +1,4 @@
-from mvnutils import *
+from .mvnutils import *
 
 MIN_VALUE=0x0000
 MAX_VALUE=0x00FF

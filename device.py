@@ -1,7 +1,7 @@
 import subprocess
 import sys, select
-from mvnutils import *
-from switchcase import *
+from .mvnutils import *
+from .switchcase import *
 
 MIN_VALUE=0x0000
 MAX_VALUE=0xFFFF

@@ -3,12 +3,12 @@ __email__="miguel.sarraf@usp.br"
 __version__="1.3"
 __year__="2021"
 
-import MVN
 import os.path
 import argparse
-from mvnutils import *
-from switchcase import *
-from c3po import C3PO
+from . import MVN
+from .mvnutils import *
+from .switchcase import *
+from .c3po import C3PO
 
 '''Start an MVN, check if there is any 'disp.lst' file and 
 inicialze the devices in it, return the MVN inicialized'''

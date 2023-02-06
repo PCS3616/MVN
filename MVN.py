@@ -1,10 +1,10 @@
-import memory
-import register
-import ULA
-import device
 import time
-from mvnutils import *
-from switchcase import *
+from . import memory
+from . import register
+from . import ULA
+from . import device
+from .mvnutils import *
+from .switchcase import *
 
 '''
 This is the class for the MVN, it contains one memory 
