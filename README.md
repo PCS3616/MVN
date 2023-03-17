@@ -26,10 +26,10 @@ Besides that, the libraries used are:
 
 In MVN/ there are two diagrams named logic_diagram.png and class_diagram.png that represent the implemented code. Besides the classes shown at MVN/class_diagram.png (which are each one in separate files homonymous), we have three aditional files, mvnutils.py, containing generic functions used in other files, switchcase.py, that implements a simple switch/case used in many places, and mvnMonitor.py, that contains the interface to run the MVN.
 
-As shown in MVN/logic_diagram.png, the MVN constains 1 LAU, 7 registers, 1 memory and many devices, those are listed and explained below:
+As shown in MVN/logic_diagram.png, the MVN constains 1 ALU, 7 registers, 1 memory and many devices, those are listed and explained below:
 
-### LAU
-The LAU in MVN has 6 functions in it:
+### ALU
+The ALU in MVN has 6 functions in it:
 - is_zero(): this function returns True if the passed argument is 0
 - is_neg():this function returns True if the passed argument is lower than 0
 - add():return the sum of the two arguments passed
