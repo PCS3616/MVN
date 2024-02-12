@@ -90,7 +90,9 @@ class device:
 						return 0x0000
 					self.buffer.append(ord("\n"))
 			if len(self.buffer)>1:
-				return self.buffer.pop(0)*0x0100+self.buffer.pop(0)
+				value = self.buffer.pop(0)*0x0100+self.buffer.pop(0)
+				self.buffer.clear()
+				return value
 			else:
 				if self.quiet:
 					print("Not enough data on buffer, returning 0x0000")
